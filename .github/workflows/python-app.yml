@@ -28,5 +28,4 @@ jobs:
         pip install -r requirements.txt
     - name : Deploy Python App
       run: |
-        nohup python app.py &
-        sleep 10
+        python app.py 
